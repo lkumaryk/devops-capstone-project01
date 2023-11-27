@@ -61,7 +61,7 @@ spec:
         value: "-v --with-spec --spec-color"
       runAfter:
         - clone
-    - name: build
+    - name: build-image
       workspaces:
         - name: source
           workspace: pipeline-workspace
